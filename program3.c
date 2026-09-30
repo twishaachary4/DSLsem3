@@ -29,17 +29,14 @@ void push()
      
 }
 
-//b. Pop an Element from Stack
 void pop()
 {
-    // Stack Underflow situations
      if(top==-1)
           printf("\n Stack Underflow");
      else
         printf(" \nPoped element is %d ",stack[top--]);  // poping element from the top of stack
 }
 
-//c. Display the status of Stack
 void display()
 {
      int i;
